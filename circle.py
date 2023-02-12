@@ -1,0 +1,11 @@
+import turtle
+t= turtle.Turtle()
+turtle.title("Drawing circle with python")
+turtle.bgcolor("blue")
+t.pensize(5)
+t.pencolor("red")
+t.begin_fill()
+t.circle(75)
+t.fillcolor("orange")
+t.end_fill()
+turtle.mainloop()

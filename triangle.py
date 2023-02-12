@@ -1,0 +1,11 @@
+import turtle
+t = turtle.Turtle()
+turtle.title("Drawing triangle in python")
+t.begin_fill()
+t.fd(100)
+t.rt(120)
+t.fd(100)
+t.rt(120)
+t.fd(100)
+t.end_fill()
+turtle.mainloop()
